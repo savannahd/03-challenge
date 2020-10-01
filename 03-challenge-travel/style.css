@@ -1,0 +1,197 @@
+body {
+   color: navy;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    background-size: contain;
+}
+
+#welcome {
+    background-image: url(./welcomeparis.jpg);
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width 100%;
+    font-size: 16px;
+}    
+    
+
+.logo {
+    width: 50%
+    height: 200px;   
+}
+
+
+
+.logo img {
+    height: 25px;
+    float: left;
+}   
+
+nav {
+    float: right;
+    color: navy;
+    height: 40px
+}
+
+ul li {
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+h1 {
+    text-align: left;
+    padding: 60px;
+    border: 60px;
+}
+
+h6 { 
+   color: navy;
+}
+h2 {
+    color: red;
+}
+
+#greeting {
+    color: navy;
+    font-style: italic;
+    font-size: 2em;
+    text-align: center; 
+}
+
+
+
+
+.attractions {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+.attractions, a {
+    width: 100%;
+}
+
+
+/* Hotel Section */
+
+
+.accomidations {
+    display: grid;
+    background-color: lavenderblush;
+    grid-template-areas: "article figure";
+    width: 100%;
+    color: navy;
+    text-align: center;
+
+}   
+
+
+article {
+   text-align: center;
+   padding: 20px 20px;
+   margin: 50px 100px;
+   color: navy;
+}
+
+
+.heart {
+    background-color: lavender;
+    text-align: center;
+    margin: auto;
+    padding: 50px 50px;
+}
+
+
+/* event boxes */
+#events {
+    background-color: lavenderblush;
+}
+
+.eventboxes {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    flex-grow: 1;
+    
+   
+    
+}
+
+#one {
+    display: flex;
+    background-color: lavender;
+    height: 300px;
+    text-align: center;
+    border: 2px solid grey;
+    padding: 20px 20px;
+    width: 100%;
+    flex-grow: 1;
+    
+}
+
+#two {
+    display: flex;
+    background-color: white;
+    height: 300px;
+    text-align: center;
+    border: 2px solid grey;
+    padding: 20px 20px;
+    width: 100%;
+    flex-grow: 1;
+}
+
+#three {
+    display: flex;
+    background-color: rgb(243, 179, 179);
+    height: 300px;
+    text-align: center;
+    border: 2px solid grey;
+    padding: 20px 20px;
+    width: 100%;
+    flex-grow: 1;
+}
+
+
+/* Gallery */
+
+#gallery {
+    background-color: bisque;
+    display: flex;
+    width: 100%;
+}
+
+.imagegallery {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+ 
+.imagegallery article {
+    text-align: center;
+    padding: 20px;
+}
+ .imagegallery p {
+     padding: 20px 20px;
+     
+ }
+
+/* Footer */
+    
+footer {
+    text-align: center;
+    background-color: navy;
+    height: 100px;
+    color: white;
+    padding: 50px;
+}
+
